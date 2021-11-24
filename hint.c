@@ -85,7 +85,7 @@ void main(int argc, char *argv[])
     printf("Please send results and questions to:   hint@scl.ameslab.gov\n");
     printf("When sending results please follow the form in README\n");
     printf("________________________________________________________\n");
-	printf("RECT is %d bytes\n",sizeof(RECT));
+    printf("RECT is %ul bytes\n",sizeof(RECT));
 
 #ifdef DEBUG
     curv = stdout;
